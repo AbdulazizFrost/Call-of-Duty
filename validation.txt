@@ -1,0 +1,7 @@
+Black Horizon validation — 06.10.2026 8:19:43
+Problems: 1
+  PROBLEM  BlackoutMission reference not assigned: fenceGap
+  note     audio clips 348, prefabs 41, sprites 15
+  note     prefabs checked: 155
+  note     Blackout: 16 mission steps, checkpoints: Phase 1 — Infiltration, Phase 2 — The Compound, Phase 3 — Breach, Phase 4 — Communications, Phase 5 — Extraction
+  note     string references checked: 115

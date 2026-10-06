@@ -1,0 +1,43 @@
+[1,0] AutoTest start. GPU: Intel(R) UHD Graphics  quality: Low  screen 1280x720
+[5,0] PASS main menu loads first
+[9,1] FPS main menu: avg 59,4  worst frame 39ms  (enemies alive 0)
+[9,6] PASS mission scene loads (New Game)
+[12,7] PASS intro cinematic plays
+[15,7] PASS cinematic can be skipped
+[17,7] PASS first objective active: Move through the forest with your squad
+[17,7] PASS checkpoint saved at mission start
+[23,7] FPS forest: avg 59,3  worst frame 39ms  (enemies alive 0)
+[25,3] PASS player walks (moved 6,3 m)
+[25,9] PASS crouch works
+[26,5] PASS starting weapon equipped (AR-77 Warden)
+[27,1] PASS firing consumes ammo (30 -> 23)
+[27,8] PASS ADS input processed
+[31,3] PASS reload refills magazine (31)
+[32,6] PASS switch to secondary (VX-9 Hornet)
+[33,7] PASS switch to sidearm (P-45 Sentinel)
+[38,5] PASS jump to step 'generator': Shut down the generator
+[44,5] FPS generator: avg 59,9  worst frame 21ms  (enemies alive 0)
+[47,0] PASS jump to step 'warehouse': Move through the warehouse to the control building
+[49,6] PASS jump to step 'breach': Breach the control building
+[55,6] FPS breach: avg 59,9  worst frame 21ms  (enemies alive 7)
+[58,1] PASS jump to step 'terminal': Connect the uplink at the array control terminal
+[60,7] PASS jump to step 'defend': Defend the terminal while the kill code uploads  <color=#D2782A>88s</color>
+[66,7] FPS defend: avg 59,9  worst frame 31ms  (enemies alive 3)
+[69,2] PASS jump to step 'charges': Plant charges on the array transformer
+[71,8] PASS jump to step 'extract': Move to the landing zone
+[74,3] PASS jump to step 'hold': Hold the landing zone until Raven 2-1 lands
+[80,3] FPS hold: avg 59,9  worst frame 22ms  (enemies alive 9)
+[80,3] enemies in combat at LZ: 9
+[88,1] FAIL breach advances to 'clear ground floor'
+[95,4] FAIL death reloads the latest checkpoint (terminal)
+[95,9] PASS pause menu opens
+[96,5] PASS pause menu closes
+[106,0] PASS mission completes
+[106,1] Errors/exceptions logged: 0
+[106,1] Failed checks: 2
+
+==== FAILED CHECKS ====
+breach advances to 'clear ground floor'
+death reloads the latest checkpoint (terminal)
+
+==== ERRORS ====

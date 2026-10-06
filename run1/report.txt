@@ -1,0 +1,30 @@
+AutoTest start. GPU: Intel(R) UHD Graphics  quality: Low  screen 1280x720
+PASS main menu loads first
+FPS main menu: avg 9,9  worst frame 110ms  (enemies alive 0)
+PASS mission scene loads (New Game)
+PASS intro cinematic plays
+PASS cinematic can be skipped
+PASS first objective active: Move through the forest with your squad
+PASS checkpoint saved at mission start
+FPS forest: avg 9,7  worst frame 176ms  (enemies alive 0)
+PASS player walks (moved 6,7 m)
+PASS crouch works
+PASS starting weapon equipped (AR-77 Warden)
+PASS firing consumes ammo (30 -> 24)
+PASS ADS input processed
+PASS reload refills magazine (31)
+PASS switch to secondary (VX-9 Hornet)
+PASS switch to sidearm (P-45 Sentinel)
+PASS jump to step 'generator': Shut down the generator
+FPS generator: avg 27,1  worst frame 156ms  (enemies alive 0)
+PASS jump to step 'warehouse': Move through the warehouse to the control building
+PASS jump to step 'breach': Breach the control building
+FPS breach: avg 18,0  worst frame 178ms  (enemies alive 7)
+PASS jump to step 'terminal': Connect the uplink at the array control terminal
+PASS jump to step 'defend': Defend the terminal while the kill code uploads  <color=#D2782A>88s</color>
+FPS defend: avg 26,3  worst frame 169ms  (enemies alive 3)
+PASS jump to step 'charges': Plant charges on the array transformer
+PASS jump to step 'extract': Move to the landing zone
+PASS jump to step 'hold': Hold the landing zone until Raven 2-1 lands
+FPS hold: avg 22,4  worst frame 171ms  (enemies alive 10)
+enemies in combat at LZ: 7
